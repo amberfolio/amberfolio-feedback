@@ -5,7 +5,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for reporting. **Please do not attach game files, save files or your journal** — describe what happened instead. Screenshots of the site's own panels are welcome.
+        Thanks for reporting. **Save files are welcome** if the bug is about a particular save (Saves on the player's toolbar exports one as a zip). **Never attach the game's own files or your journal** — they are the publisher's, and this is public. Screenshots of the site's own panels are welcome.
   - type: textarea
     id: what
     attributes:

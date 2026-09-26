@@ -10,10 +10,12 @@ the browser player for the Gold Box games.
   The player shows the digests it could not match; paste those.
 - **An idea or a question** — use *Idea or question*.
 
-**Never attach game files, save files, or your Adventurer's Journal** —
-not in an issue, a comment or a zip. Amber Folio never asks for them, and
-a public issue is public. Describe what happened, paste the line under the
-picture, and a screenshot of the site's own panels is welcome.
+**Save files are welcome** — if a bug is about a particular save, attach
+it (**Saves** on the player's toolbar exports one as a zip). **Never
+attach the game's own files or your Adventurer's Journal**: they are the
+publisher's, a public issue is public, and Amber Folio never needs them.
+Describe what happened, paste the status line from the top right of the
+player, and a screenshot of the site's own panels is welcome.
 
 The emulator itself is open source at
 [amberfolio/amberfolio](https://github.com/amberfolio/amberfolio) (AGPL-3.0);

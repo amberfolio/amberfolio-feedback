@@ -5,7 +5,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        **Do not attach any game files.** The player lists the digests (long hexadecimal fingerprints) of the files it could not match — those identify your release without anyone needing the files themselves.
+        **Do not attach the game's files** — they are the publisher's, and this is public. The player lists the digests (long hexadecimal fingerprints) of the files it could not match — those identify your release without anyone needing the files themselves.
   - type: input
     id: game
     attributes:
