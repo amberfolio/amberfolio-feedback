@@ -1,0 +1,34 @@
+name: Copy not recognised
+description: The player says your copy of the game is not one it knows.
+labels: [edition]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Do not attach any game files.** The player lists the digests (long hexadecimal fingerprints) of the files it could not match — those identify your release without anyone needing the files themselves.
+  - type: input
+    id: game
+    attributes:
+      label: Game
+      value: Pool of Radiance
+    validations:
+      required: true
+  - type: dropdown
+    id: store
+    attributes:
+      label: Where the copy came from
+      options:
+        - GOG
+        - Steam
+        - Original disks
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: digests
+    attributes:
+      label: What the player said
+      description: Open **Files** on the player's toolbar, open the details, and paste the lines it shows, digests included.
+      render: text
+    validations:
+      required: true

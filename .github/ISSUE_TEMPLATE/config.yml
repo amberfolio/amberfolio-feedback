@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Emulator source and development
+    url: https://github.com/amberfolio/amberfolio
+    about: The open-source emulator behind the player (AGPL-3.0).
+  - name: Private matters
+    url: mailto:hello@amberfolio.org
+    about: Licensing, legal, press, or anything you would rather not post publicly.

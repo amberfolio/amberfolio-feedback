@@ -1,0 +1,10 @@
+name: Idea or question
+description: A suggestion, a question, or a game you would like to see next.
+labels: [idea]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What's on your mind?
+    validations:
+      required: true

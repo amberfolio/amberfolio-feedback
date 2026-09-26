@@ -1,0 +1,52 @@
+name: Bug report
+description: Something went wrong in the player or on the site.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. **Please do not attach game files, save files or your journal** — describe what happened instead. Screenshots of the site's own panels are welcome.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: input
+    id: line
+    attributes:
+      label: The status line
+      description: The monospace line at the top right of the player (for example `amberfolio 0.7.0 · running`). Copy it exactly.
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Browser
+      options:
+        - Chrome or Edge (desktop)
+        - Firefox (desktop)
+        - Safari (Mac)
+        - Safari (iPhone or iPad)
+        - Chrome (Android)
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Browser and OS version
+      placeholder: e.g. Firefox 144 on Windows 11
+  - type: dropdown
+    id: copy
+    attributes:
+      label: Where your copy of the game came from
+      options:
+        - GOG
+        - Steam
+        - Original disks / other
+        - Not relevant
+  - type: textarea
+    id: more
+    attributes:
+      label: Anything else
+      description: With `?debug` on the player's address, a readout appears over the picture; a screenshot of it helps with performance and sound problems.
