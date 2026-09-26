@@ -6,3 +6,6 @@ contact_links:
   - name: Private matters
     url: mailto:hello@amberfolio.org
     about: Licensing, legal, press, or anything you would rather not post publicly.
+  - name: Copyright complaint
+    url: mailto:licensing@amberfolio.org
+    about: If you own the rights to something posted here and want it taken down.

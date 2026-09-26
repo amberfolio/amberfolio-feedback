@@ -32,3 +32,10 @@ body:
       render: text
     validations:
       required: true
+  - type: checkboxes
+    id: rules
+    attributes:
+      label: House rules
+      options:
+        - label: I have not attached or linked any of the game's files, manuals, maps, journal or code wheel, and I have read the [house rules](https://github.com/amberfolio/amberfolio-feedback#house-rules).
+          required: true

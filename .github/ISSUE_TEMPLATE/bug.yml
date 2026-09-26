@@ -50,3 +50,10 @@ body:
     attributes:
       label: Anything else
       description: With `?debug` on the player's address, a readout appears over the picture; a screenshot of it helps with performance and sound problems.
+  - type: checkboxes
+    id: rules
+    attributes:
+      label: House rules
+      options:
+        - label: I have not attached or linked any of the game's files, manuals, maps, journal or code wheel, and I have read the [house rules](https://github.com/amberfolio/amberfolio-feedback#house-rules).
+          required: true
